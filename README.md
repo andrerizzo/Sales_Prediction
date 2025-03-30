@@ -1,3 +1,7 @@
+ 🇧🇷 Este README está em português.  
+ 🇺🇸 [Click here for the English version.](README_EN.md)
+
+
 # 📈 Previsão de Vendas com Séries Temporais
 
 ## 🔍 Introdução
