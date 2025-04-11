@@ -48,7 +48,15 @@ O estudo foi conduzido em partes para estruturar o pipeline completo de previsã
 ## 📊 Resultados
 O projeto demonstrou a viabilidade de prever volumes de vendas a partir de padrões históricos. Modelos univariados simples já apresentaram desempenho promissor, especialmente em séries com tendência clara e sazonalidade marcada.
 
-> Resultados quantitativos (ex: RMSE, MAE) podem ser incluídos aqui após avaliação final.
+### Comparação de Desempenho dos Modelos de Séries Temporais
+
+| Modelo          | MAE         | MSE             | RMSE        | MAPE (%) |
+|----------------|-------------|------------------|-------------|-----------|
+| **Holt-Winters**   | **1.158.055,01** | **2.509.331.616.379,43** | **1.584.087,00** | **2,49** |
+| SES            | 2.236.854,38 | 6.970.201.281.512,38 | 2.640.113,88 | 4,89      |
+| ARIMA (5,1,5)  | 1.776.843,04 | 4.624.319.312.864,23 | 2.150.423,05 | 3,85      |
+| ARIMA (5,0,5)  | 1.823.035,46 | 4.830.373.834.662,80 | 2.197.811,15 | 3,91      |
+
 
 ---
 
