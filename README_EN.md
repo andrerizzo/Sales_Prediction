@@ -44,7 +44,15 @@ The study is divided into stages to structure a complete forecasting pipeline, i
 ## 📊 Results
 The project demonstrated the feasibility of forecasting sales volumes based on historical patterns. Even simple univariate models showed promising performance, especially for series with clear trends and marked seasonality.
 
-> Quantitative results (e.g., RMSE, MAE) can be included here after final evaluation.
+### Comparison of Time Series Model Performance
+
+| Modelo          | MAE         | MSE             | RMSE        | MAPE (%) |
+|----------------|-------------|------------------|-------------|-----------|
+| **Holt-Winters**   | **1.158.055,01** | **2.509.331.616.379,43** | **1.584.087,00** | **2,49** |
+| SES            | 2.236.854,38 | 6.970.201.281.512,38 | 2.640.113,88 | 4,89      |
+| ARIMA (5,1,5)  | 1.776.843,04 | 4.624.319.312.864,23 | 2.150.423,05 | 3,85      |
+| ARIMA (5,0,5)  | 1.823.035,46 | 4.830.373.834.662,80 | 2.197.811,15 | 3,91      |
+
 
 ---
 
